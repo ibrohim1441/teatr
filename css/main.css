@@ -18,7 +18,7 @@ body {
   padding: 0 20px;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
   .container {
     max-width: 550px;
   }
@@ -67,7 +67,7 @@ body {
   background-color: #d1a954;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
   .header {
     height: 100vh;
   }
@@ -158,7 +158,35 @@ body {
   color: #c4c4c4;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
+  .hero_content_title {
+    max-width: 510px;
+    font-size: 30px;
+  }
+  .hero_content_desc {
+    max-width: 510px;
+  }
+  .hero_slider {
+    display: none;
+  }
+  .hero_content_title {
+    font-size: 46px;
+    margin-bottom: 21px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .hero_content {
+    padding: 10px;
+  }
+  .hero_content_title {
+    max-width: 510px;
+    font-size: 32px !important;
+    font-weight: 900;
+    text-align: center;
+  }
+  .hero_content_desc {
+    max-width: 510px;
+  }
   .hero_slider {
     display: none;
   }
@@ -228,7 +256,12 @@ body {
   padding: 30px 38px;
 }
 .phone_navigation {
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.phone_navigation_item a {
+  color: white;
+  text-decoration: none;
 }
 .phone.active {
   left: 0%;
@@ -241,9 +274,31 @@ body {
   color: white;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
   .sidenav {
     display: none;
+  }
+  .phone_navigation {
+    list-style: none;
+    gap: 20px;
+  }
+  .phone_sidenav_navigation {
+    margin-top: 30px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 50%;
+  }
+  .phone_sidenav_navigation_item a {
+    color: white;
+    text-decoration: none;
+  }
+  .phone_sidenav_navigation_item a i {
+    color: white;
+    width: 100%;
+    font-size: 26px;
   }
 }
 #about {
@@ -310,11 +365,17 @@ body {
   color: #d1a954;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
   #about {
     padding: 80px 0;
   }
   #about .about_container {
     flex-direction: column;
+  }
+  #about .about_container_left_desc {
+    max-width: 490px;
+  }
+  #about .about_container_left_heading {
+    text-align: center;
   }
 }/*# sourceMappingURL=main.css.map */

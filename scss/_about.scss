@@ -80,9 +80,23 @@
 @media screen and (max-width: $phone_width) {
   #about {
     padding: 80px 0;
+    
+
     .about {
       &_container {
         flex-direction: column;
+
+       &_left{
+
+        &_desc{
+        max-width: 490px;
+       
+        }
+
+          &_heading{
+            text-align: center;
+          }
+       }
       }
     }
   }
