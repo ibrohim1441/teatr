@@ -68,6 +68,10 @@
   bottom: 0;
   padding: 30px 38px;
 
+  &_navigation{
+    list-style: none;
+  }
+
   &.active {
     left: 0%;
   }

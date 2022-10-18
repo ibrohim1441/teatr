@@ -227,6 +227,9 @@ body {
   bottom: 0;
   padding: 30px 38px;
 }
+.phone_navigation {
+  list-style: none;
+}
 .phone.active {
   left: 0%;
 }
@@ -314,6 +317,4 @@ body {
   #about .about_container {
     flex-direction: column;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
